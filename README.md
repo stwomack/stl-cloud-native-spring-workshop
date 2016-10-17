@@ -17,6 +17,8 @@ Time | Session
 3:00 PM - 4:00 PM | _Session 6: Route Services with Apigee with Labs*_ (Navjot)
 4:00 PM - 4:30 PM | _Wrap-up, Q&A, Course evaluation_
 
+_*See [Course Materials](#course-materials) section below for slides and labs_
+
 This is a _loose_ schedule for the day. We will adjust as necessary based on our pace through the material.
 
 The lectures for this class are intentionally very light and are only intended to set the stage for the hands-on labs.
@@ -24,21 +26,25 @@ The overwhelming majority of our time will be spent engaging with the technology
 
 ## Getting started
 
-Start by downloading the course materials.  This can be accomplished either through the GitHub website or if you have Git installed, use the following commands:
+**Prerequisites**
+
+Start by downloading and installing the appropriate prerequisite tools.
+- [Cloud Foundry CLI](https://goo.gl/M0pH4i) to interact with a cloud foundry instance
+- [Apache Maven](http://info.pivotal.io/HI002010A6ZlRJR1NeU00eC) to build labs using Maven
+- [Gradle](https://services.gradle.org/distributions/gradle-3.1-all.zip) to build labs using Gradle
+- [Git Client](https://git-scm.com/downloads) to clone Github repo or download and unzip
+- An IDE, like [Spring Tool Suite](https://spring.io/tools/sts/all) or [IntelliJ IDEA](https://www.jetbrains.com/idea/download/)
+- [Java SE Development Kit](http://info.pivotal.io/n0I60i3021AN0JU0le10CRR)
+
+**Download materials**
+
+Next, download the course materials.  This can be accomplished either through the GitHub website by downloading a repository zip and unzipping locally, or if you have Git installed, use the following commands:
 
 ```
 $ git clone https://github.com/cbusch-pivotal/stl-cloud-native-spring-workshop
 $ cd stl-cloud-native-spring-workshop/
 $ git fetch --all
 ```
-
-**Prerequisites**
-- [Cloud Foundry CLI](https://goo.gl/M0pH4i)
-- [Apache Maven](http://info.pivotal.io/HI002010A6ZlRJR1NeU00eC)
-- [Gradle](https://services.gradle.org/distributions/gradle-3.1-all.zip)
-- [Git Client](https://git-scm.com/downloads)
-- An IDE, like [Spring Tool Suite](https://spring.io/tools/sts/all)
-- [Java SE Development Kit](http://info.pivotal.io/n0I60i3021AN0JU0le10CRR)
 
 ## Course Materials
 
@@ -64,13 +70,15 @@ _Extra credit - labs can be done on your own!_
   - [Lab 10 - Config Server](session_05/lab_10/lab_10.adoc)
   - [Lab 11 - Circuit Breaker Dashboard](session_05/lab_11/lab_11.adoc)
 
-#### _Session 6: Route Services with Apigee_ [(Slides)](session_06/Session_06-Route_Services.pptx)
-  - [Lab 12 - Route Service creation](session_06/lab_12/lab_12.adoc)
-  - [Lab 13 - Using for Apigee](session_06/lab_13/lab_13.adoc)
+#### _Session 6: Route Services with Apigee_ [(Slides)](session_06/Session_06_Route_Services.pdf)
+  - [Lab 12 - PCF Route Service with Apigee](session_06/lab_12/lab_12.adoc)
+  - [Lab 13 - Apigee DevJam](session_06/lab_13/lab_13.adoc)
+
+#### _Wrap-up, Q&A, Course evaluation_ [(Slides)](session_wrapup/Session_Wrap-up.pptx) [(Evaluation)](http://evaluation.lnk)
 
 ## Instructors
 - Chris Busch, Pivotal Platform Architect, cbusch@pivotal.io
-- Navjot Sadoo, Pivotal Platform Architect, nsadoo@pivotal.io
+- Navjot Sagoo, Pivotal Platform Architect, nsagoo@pivotal.io
 - Sharath Sahadevan, Pivotal Platform Achitect, ssahadevan@pivotal.io
 - Dave Stockmann, Perficient Principle Architect, dave.stockmann@perficient.com
 - Steve Womack, Pivotal Platform Architect, swomack@pivotal.io

@@ -1,8 +1,9 @@
 :compat-mode:
-= Lab 13 - Using for Apigee
+= Lab 13 Apigee Labs
 
-== Using the route service for Apigee API management
+== Creating and Managing API's with Apigee Edge - Labs
 
-. Go to...
+- https://github.com/apigee/DevJam[Apigee DevJam]
+- https://github.com/chrislatimer/adaptordie[Apigee Adapt or Die]
 
 link:/README.md#course-materials[Course Materials home]
